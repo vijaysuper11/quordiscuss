@@ -1,11 +1,10 @@
 # One-click Hostinger deploy downloads this file and builds it from Git.
-# Replace YOUR_GITHUB_USER with your GitHub login after the repository is public.
 # A local clone uses docker-compose.override.yml, which builds this directory instead.
 
 services:
   quorum:
     build:
-      context: https://github.com/YOUR_GITHUB_USER/quordiscuss.git#main
+      context: https://github.com/vijaysuper11/quordiscuss.git#main
       dockerfile: Dockerfile
     restart: unless-stopped
     ports:
@@ -19,7 +18,7 @@ services:
       BOARD_TAGLINE: ${BOARD_TAGLINE:-What should we build next?}
       BOARD_DESCRIPTION: ${BOARD_DESCRIPTION:-Suggest ideas, vote, and follow what ships.}
       # APP_URL: https://feedback.example.com
-      # PROJECT_URL: https://github.com/YOUR_GITHUB_USER/quordiscuss
+      # PROJECT_URL: https://github.com/vijaysuper11/quordiscuss
     volumes:
       - quorum_data:/data
     healthcheck:
