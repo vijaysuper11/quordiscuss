@@ -1,0 +1,16 @@
+{
+  "name": "quordiscuss",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted feedback board, public roadmap, and changelog.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "MIT"
+}

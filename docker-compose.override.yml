@@ -1,0 +1,5 @@
+services:
+  quorum:
+    build:
+      context: .
+      dockerfile: Dockerfile
