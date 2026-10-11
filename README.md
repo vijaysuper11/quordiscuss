@@ -4,9 +4,9 @@ Self-hosted feedback board, public roadmap, and changelog. Collect ideas, let pe
 
 QuorDiscuss is for indie SaaS founders, agencies, and open-source maintainers who want a Canny or Featurebase style board on a server they control. People run their own copy from this repository. A public demo on your domain is optional.
 
-[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/docker-hosting?compose_url=https://raw.githubusercontent.com/vijaysuper11/quordiscuss/refs/heads/main/docker-compose.yml&REFERRALCODE=YOUR_CODE)
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/in/docker-hosting?compose_url=https://raw.githubusercontent.com/vijaysuper11/quordiscuss/refs/heads/main/docker-compose.yml&REFERRALCODE=FUXVIJAYSVD7)
 
-Replace `YOUR_CODE` with your Hostinger referral code before sharing that button. Steps are in [Maintainer setup](#maintainer-setup). Anyone who deploys through the finished link gets a Hostinger discount at checkout.
+The button uses referral code `FUXVIJAYSVD7`. Anyone who deploys through it gets a Hostinger discount at checkout.
 
 ## What you get
 
@@ -67,14 +67,13 @@ A small VPS is enough. The app is one Node process and one SQLite file.
 Do this before you publish the repository or share the deploy button.
 
 1. The public repository is [vijaysuper11/quordiscuss](https://github.com/vijaysuper11/quordiscuss). Hostinger downloads `docker-compose.yml` and builds the image from that Git URL.
-2. In Hostinger, open **Refer & Earn** and copy your referral code.
-3. Replace `YOUR_CODE` in the button URL above. The parameter name is `REFERRALCODE`.
-4. In the running app, set **Project URL** in Admin → Settings to the repository so the footer credit points at it.
+2. The button already includes referral code `FUXVIJAYSVD7` from [the India referral link](https://www.hostinger.com/in?REFERRALCODE=FUXVIJAYSVD7).
+3. In the running app, set **Project URL** in Admin → Settings to the repository so the footer credit points at it.
 
 The button format is the one Hostinger documents for Docker hosting:
 
 ```md
-[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/docker-hosting?compose_url=https://raw.githubusercontent.com/vijaysuper11/quordiscuss/refs/heads/main/docker-compose.yml&REFERRALCODE=YOUR_CODE)
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/in/docker-hosting?compose_url=https://raw.githubusercontent.com/vijaysuper11/quordiscuss/refs/heads/main/docker-compose.yml&REFERRALCODE=FUXVIJAYSVD7)
 ```
 
 Commission is paid by Hostinger’s referral program, not by this app. You earn 20% of a new customer’s first eligible hosting purchase after they stay active for 45 days. Domain purchases do not count. Confirm the current terms in your Hostinger referral dashboard before you rely on a number.
